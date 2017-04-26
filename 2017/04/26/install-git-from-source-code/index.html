@@ -15,17 +15,17 @@
 
 
 
-<meta name="description" content="git从源码编译到配置环境大家在使用centos系统做服务器的时候，一定发现了，centos为了系统的稳定性，软件的版本都特别老。本人最近想用git把本地的project push到远程VPS的no bare仓库中，但是发现我VPS的git的receive.denyCurrentBranch竟然不支持updateInstead选项。查看一下版本才发现VPS的git版本还是V1.8.0。于是有了自己">
+<meta name="description" content="centos下 git从源码下载到编译到配置">
 <meta name="keywords" content="git,centos,source code">
 <meta property="og:type" content="article">
 <meta property="og:title" content="install git from source code">
 <meta property="og:url" content="http://zhyhu.win/2017/04/26/install-git-from-source-code/index.html">
 <meta property="og:site_name" content="Fox's Blog">
-<meta property="og:description" content="git从源码编译到配置环境大家在使用centos系统做服务器的时候，一定发现了，centos为了系统的稳定性，软件的版本都特别老。本人最近想用git把本地的project push到远程VPS的no bare仓库中，但是发现我VPS的git的receive.denyCurrentBranch竟然不支持updateInstead选项。查看一下版本才发现VPS的git版本还是V1.8.0。于是有了自己">
-<meta property="og:updated_time" content="2017-04-26T14:46:54.000Z">
+<meta property="og:description" content="centos下 git从源码下载到编译到配置">
+<meta property="og:updated_time" content="2017-04-26T14:54:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="install git from source code">
-<meta name="twitter:description" content="git从源码编译到配置环境大家在使用centos系统做服务器的时候，一定发现了，centos为了系统的稳定性，软件的版本都特别老。本人最近想用git把本地的project push到远程VPS的no bare仓库中，但是发现我VPS的git的receive.denyCurrentBranch竟然不支持updateInstead选项。查看一下版本才发现VPS的git版本还是V1.8.0。于是有了自己">
+<meta name="twitter:description" content="centos下 git从源码下载到编译到配置">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -297,7 +297,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">547字</span>
+        <span class="post-count">561字</span>
       </span>
     </span>
 
@@ -345,7 +345,8 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="git从源码编译到配置环境"><a href="#git从源码编译到配置环境" class="headerlink" title="git从源码编译到配置环境"></a>git从源码编译到配置环境</h1><p>大家在使用centos系统做服务器的时候，一定发现了，centos为了系统的稳定性，软件的版本都特别老。本人最近想用git把本地的project push到远程VPS的no bare仓库中，但是发现我VPS的git的receive.denyCurrentBranch竟然不支持updateInstead选项。查看一下版本才发现VPS的git版本还是V1.8.0。于是有了自己从源码编译git的想法，在这期间遇到了一些恨奇怪的问题，在此与大家分享。</p>
+        <p>centos下 git从源码下载到编译到配置<br><a id="more"></a></p>
+<h1 id="git从源码编译到配置环境"><a href="#git从源码编译到配置环境" class="headerlink" title="git从源码编译到配置环境"></a>git从源码编译到配置环境</h1><p>大家在使用centos系统做服务器的时候，一定发现了，centos为了系统的稳定性，软件的版本都特别老。本人最近想用git把本地的project push到远程VPS的no bare仓库中，但是发现我VPS的git的receive.denyCurrentBranch竟然不支持updateInstead选项。查看一下版本才发现VPS的git版本还是V1.8.0。于是有了自己从源码编译git的想法，在这期间遇到了一些恨奇怪的问题，在此与大家分享。</p>
 <h2 id="软件环境"><a href="#软件环境" class="headerlink" title="软件环境"></a>软件环境</h2><ul>
 <li>操作系统：centos7.2</li>
 </ul>
@@ -370,7 +371,7 @@
         <p><span>本文标题:</span><a href="/2017/04/26/install-git-from-source-code/">install git from source code</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Fox</a></p>
         <p><span>发布时间:</span>2017-04-26, 20:14:14</p>
-        <p><span>最后更新:</span>2017-04-26, 22:46:54</p>
+        <p><span>最后更新:</span>2017-04-26, 22:54:00</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2017/04/26/install-git-from-source-code/" title="install git from source code">http://zhyhu.win/2017/04/26/install-git-from-source-code/</a>
             <span class="copy-path" data-clipboard-text="原文: http://zhyhu.win/2017/04/26/install-git-from-source-code/　　作者: Fox" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -553,7 +554,7 @@
                     </span>
                 
                 <span>| </span>
-                <span class="post-count">博客全站共638字</span>
+                <span class="post-count">博客全站共652字</span>
             </div>
         
     </div>
