@@ -5,8 +5,38 @@
     <entry>
       <title><![CDATA[install git from source code]]></title>
       <url>/2017/04/26/install-git-from-source-code/</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<h1 id="git从源码编译到配置环境"><a href="#git从源码编译到配置环境" class="headerlink" title="git从源码编译到配置环境"></a>git从源码编译到配置环境</h1><p>大家在使用centos系统做服务器的时候，一定发现了，centos为了系统的稳定性，软件的版本都特别老。本人最近想用git把本地的project push到远程VPS的no bare仓库中，但是发现我VPS的git的receive.denyCurrentBranch竟然不支持updateInstead选项。查看一下版本才发现VPS的git版本还是V1.8.0。于是有了自己从源码编译git的想法，在这期间遇到了一些恨奇怪的问题，在此与大家分享。</p>
+<h2 id="软件环境"><a href="#软件环境" class="headerlink" title="软件环境"></a>软件环境</h2><ul>
+<li>操作系统：centos7.2</li>
+</ul>
+<h2 id="需要安装的库"><a href="#需要安装的库" class="headerlink" title="需要安装的库"></a>需要安装的库</h2><p>若是条件允许，从源代码安装有很多好处，至少可以安装最新的版本。Git 的每个版本都在不断尝试改进用户体验，所以能通过源代码自己编译安装最新版本就再好不过了。有些 Linux 版本自带的安装包更新起来并不及时，所以除非你在用最新的 distro 或者 backports，那么从源代码安装其实该算是最佳选择。<br>Git 的工作需要调用 curl，zlib，openssl，expat，libiconv 等库的代码，所以需要先安装这些依赖工具。在有 yum 的系统上（比如 Fedora）或者有 apt-get 的系统上（比如 Debian 体系），可以用下面的命令安装：</p>
+<ul>
+<li>对于yum用户 <code>sudo yum yum -y install gcc openssl openssl-devel curl curl-devel unzip perl perl-devel expat expat-devel zlib zlib-devel asciidoc xmlto gettext-devel openssh-clients</code></li>
+</ul>
+<h2 id="源码准备"><a href="#源码准备" class="headerlink" title="源码准备"></a>源码准备</h2><p>git的源码隐藏的比较深，我翻了很久才找到下载资源的官网链接 从下面链接中选取合适的版本后复制对应版本的链接 使用wget 命令下载用户目录。<br><a href="https://www.kernel.org/pub/software/scm/git/" target="_blank" rel="external">git offical source code</a></p>
+<h2 id="编译过程"><a href="#编译过程" class="headerlink" title="编译过程"></a>编译过程</h2><p>当需要的库都准备完毕后<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">tar -zxf git-1.7.2.2.tar.gz</div><div class="line">cd git-1.7.2.2</div><div class="line">make prefix=/usr/local all</div><div class="line">sudo make prefix=/usr/local install</div></pre></td></tr></table></figure></p>
+<h2 id="环境变量配置"><a href="#环境变量配置" class="headerlink" title="环境变量配置"></a>环境变量配置</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">vi ~/.bashrc</div><div class="line">PATH=/usr/local/bin:$&#123;PATH&#125;</div><div class="line">source ~/.bashrc</div><div class="line">git --vsersion</div></pre></td></tr></table></figure>
+<p>如果没有出现问题的话，git –version就可以看到git 的版本了</p>
+<p>下面还有一些git好用的配置，好累啊，明天再写吧<br>未完待续。。。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="external">安装git</a></p>
+]]></content>
       
+        <categories>
+            
+            <category> git </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> centos </tag>
+            
+            <tag> source code </tag>
+            
+        </tags>
         
     </entry>
     
