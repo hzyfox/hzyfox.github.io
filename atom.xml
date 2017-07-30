@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhyhu.win/"/>
-  <updated>2017-07-25T09:07:22.000Z</updated>
+  <updated>2017-07-30T09:21:39.000Z</updated>
   <id>http://zhyhu.win/</id>
   
   <author>
@@ -16,14 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CPlus</title>
+    <link href="http://zhyhu.win/2017/07/30/CPlus/"/>
+    <id>http://zhyhu.win/2017/07/30/CPlus/</id>
+    <published>2017-07-30T09:07:58.000Z</published>
+    <updated>2017-07-30T09:21:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>C++ notes<br><a id="more"></a><br><a href="/2017/07/30/CPlus/C++.pdf" title="C++ 笔记">C++ 笔记</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;C++ notes&lt;br&gt;
+    
+    </summary>
+    
+      <category term="C++" scheme="http://zhyhu.win/categories/C/"/>
+    
+    
+      <category term="notes" scheme="http://zhyhu.win/tags/notes/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Clion</title>
     <link href="http://zhyhu.win/2017/07/21/Clion/"/>
     <id>http://zhyhu.win/2017/07/21/Clion/</id>
     <published>2017-07-21T09:01:44.000Z</published>
-    <updated>2017-07-25T09:07:22.000Z</updated>
+    <updated>2017-07-25T09:17:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>Clion 快捷键<br><a id="more"></a><br><a href="/2017/07/21/Clion/Clion_KeyMap.pdf" title="Clion 快捷键">Clion 快捷键</a></p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=189545&auto=1&height=66"></iframe>
 ]]></content>
     
     <summary type="html">
