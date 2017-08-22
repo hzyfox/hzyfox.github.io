@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhyhu.win/"/>
-  <updated>2017-07-30T09:21:39.000Z</updated>
+  <updated>2017-08-22T02:38:49.000Z</updated>
   <id>http://zhyhu.win/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>build-jdk8</title>
+    <link href="http://zhyhu.win/2017/08/22/build-jdk8/"/>
+    <id>http://zhyhu.win/2017/08/22/build-jdk8/</id>
+    <published>2017-08-22T02:28:52.000Z</published>
+    <updated>2017-08-22T02:38:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Ubuntu1404-desktop-amd64 编译 jdk8<br><a id="more"></a></p>
+<blockquote>
+<p>我的笔记是记录在有道云笔记上的，因此这里挂出有道云笔记的链接<br><a href="http://note.youdao.com/noteshare?id=abba4c3dc2340b51e065fb56757dac0a" target="_blank" rel="external"> Ubuntu1404-desktop-amd64 编译 JDk8 过程 </a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Ubuntu1404-desktop-amd64 编译 jdk8&lt;br&gt;
+    
+    </summary>
+    
+      <category term="jdk8" scheme="http://zhyhu.win/categories/jdk8/"/>
+    
+    
+      <category term="build" scheme="http://zhyhu.win/tags/build/"/>
+    
+  </entry>
   
   <entry>
     <title>CPlus</title>

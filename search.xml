@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[build-jdk8]]></title>
+      <url>/2017/08/22/build-jdk8/</url>
+      <content type="html"><![CDATA[<p>Ubuntu1404-desktop-amd64 编译 jdk8<br><a id="more"></a></p>
+<blockquote>
+<p>我的笔记是记录在有道云笔记上的，因此这里挂出有道云笔记的链接<br><a href="http://note.youdao.com/noteshare?id=abba4c3dc2340b51e065fb56757dac0a" target="_blank" rel="external"> Ubuntu1404-desktop-amd64 编译 JDk8 过程 </a></p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> jdk8 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> build </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[CPlus]]></title>
       <url>/2017/07/30/CPlus/</url>
       <content type="html"><![CDATA[<p>C++ notes<br><a id="more"></a><br><a href="/2017/07/30/CPlus/C++.pdf" title="C++ 笔记">C++ 笔记</a></p>
