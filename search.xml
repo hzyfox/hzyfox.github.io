@@ -4,7 +4,7 @@
     
     <entry>
       <title><![CDATA[build-jdk8]]></title>
-      <url>/2017/08/22/build-jdk8/</url>
+      <url>/2017/08/22/build-openjdk7_8-establish-netbeans8.2-environment-in-ubuntu1404-amd64-desktop/</url>
       <content type="html"><![CDATA[<p>Ubuntu1404-desktop-amd64 编译 open-jdk8 open-jdk7<br>在Ubuntu， netbeans8.2搭建openjdk7 的开发环境</p>
 <a id="more"></a>
 <blockquote>
