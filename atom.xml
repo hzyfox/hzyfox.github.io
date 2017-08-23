@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhyhu.win/"/>
-  <updated>2017-08-23T09:40:51.000Z</updated>
+  <updated>2017-08-23T10:16:00.000Z</updated>
   <id>http://zhyhu.win/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>build-jdk8</title>
+    <title>build-jdk8-jdk7-establish-netbeans-environment</title>
     <link href="http://zhyhu.win/2017/08/22/build-openjdk7_8-establish-netbeans8.2-environment-in-ubuntu1404-amd64-desktop/"/>
     <id>http://zhyhu.win/2017/08/22/build-openjdk7_8-establish-netbeans8.2-environment-in-ubuntu1404-amd64-desktop/</id>
     <published>2017-08-22T02:28:52.000Z</published>
-    <updated>2017-08-23T09:40:51.000Z</updated>
+    <updated>2017-08-23T10:16:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>Ubuntu1404-desktop-amd64 编译 open-jdk8 open-jdk7<br>在Ubuntu， netbeans8.2搭建openjdk7 的开发环境</p>
 <a id="more"></a>
